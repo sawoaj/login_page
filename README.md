@@ -1,1 +1,1 @@
-login page frontend that uses nextjs wtih shadcn ui components 
+login page frontend that uses nextjs with shadcn ui components 
