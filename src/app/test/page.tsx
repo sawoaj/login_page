@@ -7,8 +7,10 @@ const InputWithLabel = () => {
 	return (
 		<div className="flex justify-center items-center h-screen">
 			<div className="grid w-full max-w-sm items-center gap-1.5">
-				<Label htmlFor="email">Email</Label>
+				<Label htmlFor="">Email</Label>
 				<Input type="email" id="email" placeholder="Email" />
+				<Input type="password" id="password" placeholder="password" />
+				<Button>Log in</Button>
 			</div>
 		</div>
 	);
