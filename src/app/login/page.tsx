@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 
 const InputWithLabel = () => {
 	return (
-		<div className="flex justify-center items-center h-screen">
+		<div className="flex h-screen items-center justify-center">
 			<div className="grid w-full max-w-sm items-center gap-1.5">
 				<Label htmlFor="">Email</Label>
 				<Input type="email" id="email" placeholder="Email" />
