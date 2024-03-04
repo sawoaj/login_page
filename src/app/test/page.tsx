@@ -1,18 +1,17 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
-function Page() {
-  return (
-    <main className="flex h-full flex-col items-center justify-center ">
-      <Input>
+const InputWithLabel = () => {
+	return (
+		<div className="flex justify-center items-center h-screen">
+			<div className="grid w-full max-w-sm items-center gap-1.5">
+				<Label htmlFor="email">Email</Label>
+				<Input type="email" id="email" placeholder="Email" />
+			</div>
+		</div>
+	);
+};
 
-        export function InputDemo() {
-      return <Input type="email" placeholder="Email" />
-    }
-        <Input />
-    </main>
-  );
-}
-
-export default Page;
+export default InputWithLabel;
